@@ -1,0 +1,985 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Unmined: Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" href="https://unmined.io/assets/front/img/u.png" type="image/png" sizes="16x16">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+<link rel="apple-touch-icon" href="../assets/images/logo.png">
+<meta name="apple-mobile-web-app-title" content="Unmined">
+
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="shortcut icon" sizes="196x196" href="../assets/images/logo.png">
+<meta http-equiv="refresh" content="180;URL='https://unmined.io/member/dashboard'">
+
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/animate.css/animate.min.css" type="text/css" />
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/glyphicons/glyphicons.css" type="text/css" />
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/font-awesome/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/material-design-icons/material-design-icons.css" type="text/css" />
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/styles/app.css?ver=56585" type="text/css" />
+
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/styles/font.css" type="text/css" />
+<link rel="stylesheet" href="https://unmined.io/assets/member/assets/styles/slidercaptcha.css?ver=96502" type="text/css" />
+<script src="https://unmined.io/assets/member/libs/jquery/jquery/dist/jquery.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130597050-1" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130597050-1');
+</script>
+
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1860177310967081');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1860177310967081&ev=PageView&noscript=1"
+/></noscript>
+
+<script data-ad-client="ca-pub-4156871832547914" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+</head>
+<body class="pace-done">
+<div class="app" id="app">
+
+
+<div id="aside" class="app-aside modal fade md nav-expand">
+<div class="left navside indigo-900 dk" layout="column">
+<div class="navbar navbar-md no-radius">
+
+<a class="navbar-brand">
+<span class="hidden-folded inline"><img src="https://unmined.io/assets/member/assets/images/logo_white.png"></span>
+</a>
+
+</div>
+<div flex class="hide-scroll">
+<nav class="scroll nav-active-primary">
+<ul class="nav" ui-nav>
+<li>
+<a href="https://unmined.io/member/dashboard">
+<span class="nav-icon">
+<i class="material-icons md-24">dashboard</i>
+</span>
+<span class="nav-text">DASHBOARD </span>
+</a>
+</li>
+
+<li>
+<a href="https://unmined.io/member/mywallet ">
+<span class="nav-icon">
+<i class="material-icons md-24">account_balance_wallet</i>
+</span>
+<span class="nav-text">My Wallet </span>
+</a>
+</li>
+<li>
+<a href="https://unmined.io/member/plandetails">
+<span class="nav-icon">
+<i class="material-icons md-24">add_circle</i>
+</span>
+<span class="nav-text">Buy hashpower</span>
+</a>
+</li>
+<li>
+<a href="https://unmined.io/member/finance">
+<span class="nav-icon">
+<i class="material-icons md-24">library_books</i>
+</span>
+<span class="nav-text">Financial transactions</span>
+</a>
+</li>
+<li>
+<a href="https://unmined.io/member/upgrades">
+<span class="nav-icon">
+<i class="material-icons md-24">shopping_cart</i>
+</span>
+<span class="nav-text">My orders</span>
+</a>
+</li>
+<li>
+<a href="https://unmined.io/member/visits">
+<span class="nav-icon">
+<i class="material-icons md-24">language</i>
+</span>
+<span class="nav-text">Visits</span>
+</a>
+</li>
+<li>
+<a href="https://unmined.io/member/refferal">
+<span class="nav-icon">
+<i class="material-icons md-24">wifi_tethering</i>
+</span>
+<span class="nav-text">Affiliate Program</span>
+</a>
+</li>
+<li>
+<a href="https://unmined.io/member/setting">
+<span class="nav-icon">
+<i class="material-icons md-24"></i>
+</span>
+<span class="nav-text">SETTING</span>
+</a>
+</li>
+<li class="hidden-folded">
+<div class="affilite_box">
+<div class="text-center font_18">Affiliate Program </div>
+<h2 class="text-center">20 %</h2>
+<p class="text-center">You can invite your friends or share your referral link on social networks, blogs or forums online.</p>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+
+
+<div id="content" class="app-content box-shadow-z0" role="main">
+<div class="app-header white box-shadow navbar-md">
+<div class="navbar navbar-toggleable-sm flex-row align-items-center">
+
+<a data-toggle="modal" data-target="#aside" class="hidden-lg-up mr-3">
+<i class="material-icons">&#xe5d2;</i>
+</a>
+
+
+<div class="mb-0 h5 no-wrap" ng-bind="$state.current.data.title" id="pageTitle"></div>
+<span class="page_title_name">
+Dashboard </span>
+
+<ul class="nav navbar-nav ml-auto flex-row">
+<li class="bounty_main">
+<a href="https://unmined.io/member/bounty">Bounty Program</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link p-0 clear" href="#" data-toggle="dropdown">
+<span class="avatar w-32">
+<img src="https://unmined.io/assets/member/assets/images/a0.jpg" alt="...">
+<i class="on b-white bottom"></i>
+</span>
+</a>
+
+<div class="dropdown-menu dropdown-menu-overlay pull-right">
+<a class="dropdown-item" href="https://unmined.io/member/setting"><span>Settings</span> </a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" target="_blank" href="https://unmined.io/contact">Need help?</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="https://unmined.io/member/logout">Sign out</a>
+</div>
+
+</li>
+</ul>
+
+</div>
+</div>
+<div class="app-footer">
+<div class="p-2 text-xs">
+<div class="pull-right text-muted py-1">
+<p>&copy; 2017 - 2021 <span class="brand"><a href="https://unmined.io/">unmined.io</a> </span> All Rights Reserved.</p>
+</div>
+</div>
+</div>
+<div ui-view class="app-body" id="view">
+
+<div class="padding">
+
+<div class="dashboard_content">
+<h5>NEW & IMPROVED!</h5>
+<ul class="dashboard_list">
+<li>We are back with Bitcoin mining! </li>
+<li>To mine competitively today, you need to invest significant resources, time and effort into your setup. </li>
+<li>Our team has built the most efficient mining systems to do the job for you.</li>
+<li>Please order hashpower & enhance your mining performance! Check out <a href="https://unmined.io/member/plandetails"> These great plans</a> and get 30% off on All premium versions. Hurry to grab this dashing offer now.</li>
+<li>Future Note: We are building mining data centers around the world that are able to support 6 mining algorithms for 10+ different cryptocurrencies. </li>
+</ul>
+</div>
+
+<div class="margin">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="row no-gutter box dark bg">
+<div class="col-sm-3">
+<div class="box-body">
+<h6>My Package:</h6>
+<div style="display:inline-flex;"><h1>V0 </h1><button class="md-btn md-fab m-b-sm white custome_icon_hover_popup"><i class="fa fa-question"></i></button></div><br><br>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+  function custom_tooltip()
+  {
+    $('.custome_icon_hover_popup').tooltip({title: "<strong> EARNING RATE </strong>0.00000001 BTC/min ", html: true, placement: "top"}); 
+  }
+</script>
+<a href="https://unmined.io/member/plandetails" class="btn btn-fw info color_sidebar">Buy More </a>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="box-body">
+<h6>Your earning balance</h6>
+<h1 class="changetext white">4.2E-7</h1>
+<input type="hidden" id="newtext" value="0.000000420">
+<input type="text" class="form-control" name="widthsum" id="widthsum" readonly="" style="display: none;"><br>
+<p class="alert-message" style="display: none; "></p>
+<div class="row">
+<div class="col-md-12 text-center">
+<button class="btn btn-outline b-info text-info  " type="button" id="btn_collect_coins"> Collect Coins </button>
+<button class="btn btn-outline b-info text-info dashbtn_space" type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; collect_coins_wallet();" id="btnwithdraw1" style="display:none;" data-cf-modified-6e1d9cd45c5a249e822a246e-="">Confirm</button>
+<button class="btn btn-outline b-info text-info dashbtn_space" type="button" id="btncancle" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.reload();" style="display: none;" data-cf-modified-6e1d9cd45c5a249e822a246e-="">Cancel</button>
+<button class="btn btn-outline b-info text-info" onclick="if (!window.__cfRLUnblockHandlers) return false; auto_collect(2)" id="auto_collect" type="button" data-cf-modified-6e1d9cd45c5a249e822a246e-=""> Auto Collect </button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5 dker"><br>
+<div class="box-header">
+<span>Last payout:</span><br>
+<p><b>BTC : 0.00000060 </b>($ 0.000, 2021-06-07 14:41:30 )</p>
+<span>Total Paid Out:</span><br>
+<p><b>BTC : 0.00000360 </b>($ 0.000)</p>
+</div>
+<form name="frm1" action="https://unmined.io/member/autoreload" method="post">
+<label>Auto Reload page</label>
+<select class="form-control" name="reloadstatus" id="reloadstatus">
+<option value="Off">Off</option>
+<option value="On" selected="selected">On</option>
+</select>
+</form>
+</div>
+</div>
+</div>
+
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-12"><br>
+<div class="detail alert info">
+<ul>
+<li>Claim your free hashing power every hour with mining rate of 0.00000120BTC</li>
+<li>Every free User can mine 0.0000012 BTC/HOUR.</li>
+<li>Collections limit for free users is one hour.</li>
+<li>Upgrade & enjoy the benefits of unlimited coin collection.</li>
+<li>Collected coins will be added to main Balance in <a style="color:blue" href="https://unmined.io/member/mywallet">My wallet</a>.</li>
+<li>Mining difficulties can change for free users.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<h5>Recent Upgrade Request</h5>
+<div class="box">
+<div class="box-header">
+<div class="row">
+<div class="col-md-10">
+<p><a href="" class="text-info">Order #5380-22249 </a>Created : 05th, Jun 2021 07:03:45 PM</p>
+<div class="up_plan_detail">
+<div class="up_plan_detail_extrpadding"><h5>V2</h5></div>
+<div class="up_plan_detail_extrpadding"><h5>0.09 BTC</h5></div>
+<a href="https://unmined.io/member/paydetail/2/22249" class="btn btn-fw info color_sidebar">Pay </a> </div>
+</div>
+<div class="col-md-2">
+<div class="upgrad_status">
+<button class="btn info">Created </button> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+<div id="modelnotify" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content" style="top:100px !important;">
+<div class="modal-header" style="background: #f8f8f8;">
+<h4 class="modal-title text-center">Enter your Email to get Notification.</h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-lg-12">
+<div id="notifysuccid" style="display:none"> <p> Notify email update successfully.</p></div>
+<div id="notifyerrorid"></div>
+<input class="notifyemail-input" type="text" id="notifyemail" name="notifyemail" value="" placeholder="Email">
+</div>
+</div>
+</div>
+<div class="modal-footer text-center">
+<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; notifyme();" class="thm-btn2 rd30" data-cf-modified-6e1d9cd45c5a249e822a246e-="">Submit</button> <button type="button" class="rd30" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="myajaxmodel" class="modal fade" role="dialog">
+<div class="modal-dialog" style="width: 900px;">
+
+<div class="modal-content">
+<div class="modal-header" style="background: #f8f8f8;">
+<h4 class="modal-title text-center">Complete your Deposit</h4>
+</div>
+<div id="model-loder-gif" style="text-align: center;">
+<img src="https://unmined.io/assets/front/images/loader2.gif">
+</div>
+<div id="modelbodydata"></div>
+</div>
+</div>
+</div>
+
+<div id="m-sm" class="modal" data-backdrop="true">
+<div class="row-col h-v">
+<div class="row-cell v-m">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="header_part">Fund Transfer To Wallet</h5>
+</div>
+<div class="modal-body text-center p-lg">
+<p class="font16" id="error_less_amount"></p>
+</div>
+<div class="modal-footer">
+<a href="https://unmined.io/member/plandetails" class="btn btn-fw info color_sidebar">Buy More</a>
+<button type="button" class="btn dark-white p-x-md" data-dismiss="modal">Back</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="imgrecaptcha" class="modal" data-backdrop="true">
+<div class="row-col h-v">
+<div class="row-cell v-m">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="header_part">Verify you are human
+</div>
+<div class="modal-body text-center p-lg">
+<div class="row no-margin">
+<div class="col-md-12">
+<p class="alert-message" style="display: none; "></p>
+<p id="captchaerror"></p>
+</div>
+<div class="col-md-12">
+<div class="slidercaptcha card">
+<div class="card-header">
+<span>Drag To Verify</span>
+</div>
+<div class="card-body">
+<div id="captcha"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="google-recaptcha" class="modal" data-backdrop="true">
+<div class="row-col h-v">
+<div class="row-cell v-m">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="header_part">Verify you are human
+</div>
+<form action="" method="POST">
+<div class="modal-body text-center p-lg">
+<div class="row no-margin">
+<div class="col-md-12 padding-leftright-null">
+<p class="alert-message" style="display: none; "></p>
+<div id="captchaerror" style="display: none;"></div>
+</div>
+<div class="col-md-12 padding-leftright-null">
+<div class="g-recaptcha" data-sitekey="6LeAiVIUAAAAAOqWo2LhrWMiy8PcIt67jKN3sLog"></div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="submit" onclick="if (!window.__cfRLUnblockHandlers) return false; ();" id="verify_capatcha" class="btn btn-fw info color_sidebar" data-cf-modified-6e1d9cd45c5a249e822a246e-="">Verify</button>
+<button type="button" id="cancel_verify" class="btn dark-white p-x-md">Back</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src='https://www.google.com/recaptcha/api.js' type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+	
+$(document).ready(function() {
+
+	$('#captcha').sliderCaptcha({
+	  width: 280,
+	  height: 155,
+	  sliderL: 42,
+	  sliderR: 9,
+	  offset: 5, 
+	  loadingText: 'Loading...',
+	  maxLoadCount: 3,
+	  setSrc: function () {
+	    return 'https://unmined.io/assets/member/imag/Pic' + Math.round(Math.random() * 4) + '.jpg';
+	  },
+	  onSuccess: function () {
+			$("#btncancle").show();
+			$("#btnwithdraw1").show();
+			if($("#captchaerror").hasClass('text-danger')){
+				$("#captchaerror").removeClass('text-danger');	
+			}
+	  		$("#captchaerror").addClass('text-success');
+			$("#captchaerror").html('Capatcha verified successfully');
+			$("#captchaerror").show();
+			setTimeout(function () {
+				$('#imgrecaptcha').modal('hide');
+			}, 2000);
+	  },
+	  onFail: function () {
+	  		if($("#captchaerror").hasClass('text-success')){
+				$("#captchaerror").removeClass('text-success');	
+			}
+	  		$("#captchaerror").addClass('text-danger');
+	    	$("#captchaerror").html('capatcha verified failed');
+			$("#captchaerror").show();
+	  },
+	});
+
+   var show  = "";
+   var usertype = "0";
+   var discounter = "1";
+
+  if(discounter == "1"){
+    //myModaldiscount
+    $('#myModaldiscount').modal('show');
+  }
+
+  $("#reloadstatus").change(function (){
+      $(this).parent('form').submit();
+  });
+
+    if(show == 'upgrade'){
+    $('html, body').animate({
+          scrollTop: eval($(".scrollup-testclass").offset().top)
+        }, 2000);
+  }
+ 
+        
+	setInterval(function() {
+       var per_hour_val="0.00000060";
+    	var oldvalue =  $('#newtext').val();
+    	//alert(oldvalue);
+    	var oldvalue_2 =  parseFloat(oldvalue).toFixed(8)
+    	var final_old_val="";
+    	if(per_hour_val==oldvalue_2)
+    	{
+			 final_old_val=oldvalue;
+			 var newresult = parseFloat(final_old_val).toFixed(8);
+		}
+		else
+		{
+			var result = parseFloat(parseFloat(oldvalue) + (parseFloat("0.00000001")/60)).toFixed(9);
+ 		    $("#newtext").val(result);
+ 		    var newresult = parseFloat(result).toFixed(8);
+		}
+ 		$('.changetext').html(newresult);
+    }, 1000);
+
+
+	$("#btnwithdraw").click(function (){
+		
+		 			 var min_val ="0.00000060";
+		 			var currval = $(this).val();
+			var earning = parseFloat($(".changetext").html()).toFixed(8);
+			$(".alert-message").html("Min "+min_val+" BTC");
+			$(".alert-message").show();
+			
+				$(this).val("Confirm");
+				$("#widthsum").val(earning);
+				$("#newval").html(earning);
+				$("#widthsum").show();
+				$("#btncancle").show();
+				$("#btnwithdraw1").show();
+				$("#btnwithdraw").hide();
+				$("#btnaccount").hide();
+				
+				$('#newtext').html(earning);
+				$(".licancle").show();
+				
+	});
+	
+
+ $("#cancel_verify").click(function (){		
+		$("#btn_collect_coins").show();
+		$("#btncancle").hide();
+		$("#btnwithdraw1").hide();
+		$("#widthsum").hide();
+		//$('#google-recaptcha').modal('hide');
+		$('#imgrecaptcha').modal('hide');
+	});
+ 
+    $("#btn_collect_coins").click(function (){
+	    		    var min_val ="0.00000060";
+			 
+			var currval = $(this).val();
+			var earning = parseFloat($(".changetext").html()).toFixed(8);
+			$(".alert-message").html("Min "+min_val+" BTC");
+			$(".alert-message").show();
+			
+			$(this).val("Confirm");
+			$("#widthsum").val(earning);
+			$("#newval").html(earning);
+			$("#widthsum").show();
+			/*$("#btncancle").show();
+			$("#btnwithdraw1").show();*/
+			$("#btn_collect_coins").hide();
+			$("#btnaccount").hide();
+			
+			$('#newtext').html(earning);
+			$(".licancle").show();
+			//$('#google-recaptcha').modal('show');
+			$("#imgrecaptcha").modal('show');
+	});
+	
+    $("#verify_capatcha").click(function(event) {
+ 		event.preventDefault();
+ 		if (grecaptcha === undefined) {
+			alert('Recaptcha not defined'); 
+			return; 
+		}
+		var response = grecaptcha.getResponse();
+		if (!response) {
+			alert('Coud not get recaptcha response'); 
+			return; 
+		}else{
+			$.ajax({
+				url: 'https://unmined.io/home/verify_withdrawal',
+				type: 'POST',
+				data:{ 'g-recaptcha-response' : response },
+				success:function (result) {
+					var res = $.parseJSON(result);
+					if(res.msg === 'success'){
+						$("#btncancle").show();
+						$("#btnwithdraw1").show();
+						$('#google-recaptcha').modal('hide');
+					}else{
+						$("#captchaerror").html(result.error);
+						$("#captchaerror").show();
+					}
+				}
+			})
+		};
+		return false;
+ 	});
+ 
+
+});
+</script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+	function auto_collect(version) {
+		$("#header_part").html("Auto collect");
+	   	$('#error_less_amount').html("This facility available to only for Upgraded members.");
+	  	$(".alert-message").show();
+		$('#m-sm').modal('show');
+	}
+	
+	function collect_coins_wallet()
+	{
+		var usertype ="0";
+	  	var amount=$("#widthsum").val(); 
+	  
+	   			var min_val ="0.00000060";
+		 	  var minamount=min_val;
+	  if(amount >= minamount)
+	   {
+		  	$(".alert-message").hide();
+          	$(".alert-message").html("");    
+          
+	            $.ajax({
+	                url : 'https://unmined.io/member/collect_coins_to_wallet',
+	                data:{reqamount:amount,minamount:minamount},
+	                type : 'POST',
+	                dataType : 'json',
+	                success : function(res){
+	               
+	                  	if(res.result == "success"){
+	                    	window.location = "https://unmined.io/member/dashboard";
+	                  	}else{
+	                    	//$(".alert-message").html('BTC Not Collect Coins successfully');
+	                    	//$(".alert-message").show();
+	                     	$('#m-sm').modal('show');
+	                     	$('#error_less_amount').html("Withdrawal amount (BTC "+amount+") is less than the minimum (BTC "+minamount+"). Buy extra hashpower to increase the amount of your daily payouts.");
+	                  	}
+	                }
+	            });
+		   
+	   	} else {
+		   	$('#m-sm').modal('show');
+		   	$('#error_less_amount').html("Withdrawal amount (BTC "+amount+") is less than the minimum (BTC "+minamount+"). Buy extra hashpower to increase the amount of your daily payouts.");
+		  	$(".alert-message").show();
+	   	}
+	}
+	
+   function withdrawconfirm()
+   {
+	 
+	  var usertype ="0";
+	  var amount=$("#widthsum").val(); 
+	  var minamount="0.005000000";
+	  
+	 // alert(amount);
+	   if(amount >minamount)
+	   {
+		  
+		  $(".alert-message").hide();
+          $(".alert-message").html("");    
+          
+          
+             $.ajax({
+                        url : 'https://unmined.io/member/withdrawamount',
+                        data:{reqamount:amount},
+                        type : 'POST',
+                        dataType : 'json',
+                        success : function(res){
+                          if(usertype == '0' || usertype == '2'){
+                              if(res.result == "success"){
+                                window.location = "https://unmined.io/member/finance";
+                              }else{
+                                $(".alert-message").html('BTC Not withdrawn successfully');
+                                $(".alert-message").show();
+                              }
+                          }else{
+                              if(res.result == "success"){
+                                $(".alert-message").html('BTC withdrawn successfully');
+                                $(".alert-message").show();
+                              }else{
+                                $(".alert-message").html('BTC Not withdrawn successfully');
+                                $(".alert-message").show();
+                              }
+                             
+                          } 
+                                             
+                        }
+                    });
+		   
+	   }
+	   else
+	   {
+		  // alert(amount);
+		   $('#m-sm').modal('show');
+		  //$('.alert-message').html("You don't have 0.00500000 BTC yet. Try later");
+		   $('#error_less_amount').html("Withdrawal amount (BTC "+amount+") is less than the minimum (BTC 0.00500000). Buy extra hashpower to increase the amount of your daily payouts.");
+		  $(".alert-message").show(); 
+	   }
+	    
+   }
+
+
+	
+
+function notifyme()
+{ 
+	 var notifyemail=$("#notifyemail").val(); 
+	  $.ajax({
+            url     : 'https://unmined.io/account/notifyemail',
+            method  : 'post',
+            data    : {email :notifyemail},
+            dataType: 'json',
+            success : function(data){
+			  if(data=='1')
+			  {
+				$("#notifysuccid").show();    
+				$("#notifyerrorid").hide();
+			  }
+			  else
+			  {
+				$("#notifyerrorid").html(data);  
+			  }
+             
+            },
+          
+          })
+	
+}
+
+</script>
+<style>
+.col-sm-7.add {
+    /* margin-top: -74px; */
+    display: block;
+    width: 100% !important;
+}
+.mobile_add{
+    display:none;
+}
+@media screen and (max-width: 767px) {
+    .col-sm-7.add {
+        display:none;
+    }
+    .mobile_add{
+        display:block;
+        margin: 10px;
+    }
+}
+</style>
+</div>
+</div>
+
+</div>
+
+
+<script src="https://unmined.io/assets/member/libs/jquery/tether/dist/js/tether.min.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/libs/jquery/bootstrap/dist/js/bootstrap.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+
+
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5fbe3f88a1d54c18d8ed3da0/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+<script src="https://unmined.io/assets/member/libs/jquery/underscore/underscore-min.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/libs/jquery/jQuery-Storage-API/jquery.storageapi.min.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+
+<script src="https://unmined.io/assets/member/scripts/config.lazyload.js?ver=3499" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/palette.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-load.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-jp.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-include.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-device.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-form.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-nav.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-screenfull.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-scroll-to.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/ui-toggle-class.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/app.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/scripts/longbow.slidercaptcha.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script src="https://unmined.io/assets/member/walletjs/btcvalid.source.js" type="6e1d9cd45c5a249e822a246e-text/javascript"></script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+			
+			     jQuery(document).ready(function($) {
+    if($(".maintain_modal").length > 0){
+        $(".maintain_modal").click(function() {
+            $('#maintain_modal').modal('show');
+            $.ajax({
+                      url     : 'https://unmined.io/member/ajaxmaintain',
+                      method  : 'POST',
+                      success : function(e){
+                            $("#modelbodydata").html(e);
+                      },
+                      complete : function(){
+                            $("#model-loder-gif").hide();
+                      }
+                  });
+        });
+    }
+});
+			
+			   
+     
+   
+   function load_onchange_getversionupgrade_detail()
+   {
+	  
+	    var u='https://unmined.io/member/onchange_getversionupgrade_detail'  
+	   var filter_val = $("#upgrade_filter_select").val(); 
+	     $.ajax({
+            url     : u,
+            method  : 'post',
+            data    : {filter_select_val : filter_val},
+            success : function(e){
+				 $("#loaddiv").hide();
+              $("#tablebody2").html(e);
+            },
+            
+          }) 
+   }
+  </script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+$(document).ready(function() {
+	$('[data-toggle="popover"]').popover(); 
+	if (typeof custom_tooltip === 'function') {
+		custom_tooltip();
+	}
+});
+</script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+    // WRITE THE VALIDATION SCRIPT IN THE HEAD TAG.
+    function isNumber(evt) {
+        var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+        if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57))
+            return false;
+
+        return true;
+    }    
+</script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+      function address_copy(content)
+      {
+		  
+          var copyBtn = document.querySelector('.copy_btn');
+		  
+		  var urlField = document.querySelector('#url_field');
+	 	  var cpy = content; 
+		  // create a Range object
+		  var range = document.createRange();
+		  // set the Node to select the "range"
+		  document.getSelection().removeAllRanges();
+		  range.selectNode(urlField);
+		  $('#urlField').select();
+		  // add the Range to the set of window selections
+		  window.getSelection().addRange(range);
+		  // execute 'copy', can't 'cut' in this case
+		  document.execCommand('copy');
+		  document.getSelection().removeAllRanges();
+		  copyBtn.text='Copied';
+		  $('#url_field').css('background','#fff');
+		  $('#url_field').css('color','#334456');
+		  $('#url_field').css('padding','5px');
+		  $('#url_field').css('font-size','16px !important');
+		
+   
+}
+</script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+    $(document).ready(function() {
+        
+        if( $( window ).width()>480){
+            $('.desktop_add').show()
+            $('.mobile_add').hide();
+        }else{
+            $('.desktop_add').hide();
+            $('.mobile_add').show();
+        }
+        
+        $( window ).resize(function() {
+            if( $( window ).width()>480){
+                $('.desktop_add').show()
+                 $('.mobile_add').hide();
+            }else{
+                $('.desktop_add').hide();
+                 $('.mobile_add').show();
+            }
+        });
+    });
+</script>
+
+<script type="6e1d9cd45c5a249e822a246e-text/javascript" src="https://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.js"></script>
+<script type="6e1d9cd45c5a249e822a246e-text/javascript">
+  $(document).ready(function(){
+        $("#bountyform").validate({
+            rules:{
+                'email':{
+                    required: true,
+                    email: true
+                },
+                'social_profile':{
+                  required:true,
+                },
+                'num_followers':{
+                  required:true,
+                    number:true,
+                },
+                'social_handler':{
+                  required:true,
+                },
+                'comment':{
+                  required:true,
+                },
+                'shared_post':{
+                  required:true,
+                },
+                'verify_captcha':{
+                  required:true,
+                  equalTo: "#old_captcha_val"
+                },
+            },
+            messages:{  
+                'email': {
+                    required: "Please enter a valid email address",
+                    remote: jQuery.format("{0} is already in use")
+                },
+                'social_profile':{
+                  required: "Please enter a Social Handler Profile Link",
+                },
+                'num_followers':{
+                  required: "Please enter a Number of Friends/Followers",
+                },
+                'social_handler':{
+                  required: "Please enter a Social Handler Post Link",
+                },
+                'comment':{
+                  required: "Please enter a Comment Link",
+                },
+                'shared_post':{
+                  required: "Please enter a Shared Post Link",
+                },
+                'verify_captcha':{
+                  required: "Please enter a Verify Captcha",
+                }
+            },
+            errorElement: "em",
+          errorPlacement: function ( error, element ) {
+                  error.addClass( "help-block" );
+                  error.insertAfter( element );
+          },
+          submitHandler: function (form) {
+            $('html,body').animate({ scrollTop: 0 }, 'slow');
+            var form_data = $('#bountyform').serialize();
+                $.ajax({
+                url     : 'https://unmined.io/member/bountyform_action',
+                method  : 'post',
+                data    : form_data,
+                success : function(data){
+                if(data == "success"){
+                  var tag = $('#tag').val();
+                  $('.succ_msg').show();
+                  $('.err_msg').hide();
+                  $('.succ_msg').html("Your "+tag+" details added successfully.");
+                }
+                else if(data == "error"){
+                  $('.succ_msg').hide();
+                  $('.err_msg').show();
+              $('.err_msg').html("Some Error occur, Please try again later");
+                }
+                else{
+                  $('.succ_msg').hide();
+                  $('.err_msg').show();
+              $('.err_msg').html(data);
+                }
+              },
+            })
+          }
+        });
+  });
+</script>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6e1d9cd45c5a249e822a246e-|49" defer=""></script></body>
+</html>
